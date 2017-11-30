@@ -12,8 +12,8 @@ public class UsingVariables
 		wtf = "Computer Science"; 
 		
 		System.out.println( "This is room # " + dank );
-		System.out.println( "e is close to " + meme );
-		System.out.println( "I am learning a bit about " + wtf );
+		System.out.println( " e is close to " + meme );
+		System.out.println( " I am learning a bit about " + wtf );
 	}
 
 }

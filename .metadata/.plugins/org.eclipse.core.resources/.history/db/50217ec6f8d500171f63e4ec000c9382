@@ -9,11 +9,11 @@ public class UsingVariables
 		
 		dank = 113;
 		meme = 2.7182;
-		wtf = "Computer Science"; 
+		wtf = Computer Science; 
 		
 		System.out.println( "This is room # " + dank );
-		System.out.println( "e is close to " + meme );
-		System.out.println( "I am learning a bit about " + wtf );
+		System.out.println( " e is close to " + meme );
+		System.out.println( " I am learning a bit about " + wtf );
 	}
 
 }
