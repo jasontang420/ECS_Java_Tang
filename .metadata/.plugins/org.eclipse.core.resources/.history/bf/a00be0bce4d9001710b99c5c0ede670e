@@ -6,7 +6,7 @@ public class Selection_Structure
 	{
 		int people = 30;
 		int cars = 40;
-		int buses = 1;
+		int buses = 1500;
 		
 		if( cars > people )
 		{
