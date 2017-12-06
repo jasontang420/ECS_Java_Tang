@@ -14,7 +14,7 @@ public class HiLowLimited
 		System.out.println( "I'm thinking of a number from 1-100. Guess it u scrub" );
 		ans = keyboard.nextInt();
 		
-		while( ans != x && tries > 0)
+		while( ans != x && tries > 10)
 		{
 			if ( ans > x )
 			{
@@ -35,11 +35,7 @@ public class HiLowLimited
 		}
 		if ( ans == x )
 		{
-			System.out.println( "Nice job! You guessed it!" );
-		}
-		if ( tries == 0 )
-		{
-			System.out.println( "U ran out of tries!" );
+			System.out.println( "Nice job! You guessed ot!" );
 		}
 		
 	}
