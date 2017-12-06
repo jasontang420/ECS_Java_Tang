@@ -13,7 +13,7 @@ public class WhileLoops
 		
 		while ( entry != pin )
 		{
-			System.out.println( "\nWrong u idiot" );
+			System.out.println( "Wrong u idiot" );
 			System.out.println( "Enter your pin:" );
 			entry = keyboard.nextInt();
 		}
