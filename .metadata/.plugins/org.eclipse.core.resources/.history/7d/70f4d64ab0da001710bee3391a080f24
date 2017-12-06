@@ -21,9 +21,5 @@ public class DoubleDice
 			y = 1 + r.nextInt(6);
 		} while( x != y );
 		
-		System.out.println( "Roll #1: " + x );
-		System.out.println( "Roll #2: " + y );
-		System.out.println( "Pair boi" );
-		
 	}
 }
