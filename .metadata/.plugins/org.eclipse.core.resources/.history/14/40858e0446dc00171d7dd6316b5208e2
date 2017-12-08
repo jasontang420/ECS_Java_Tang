@@ -14,9 +14,9 @@ public class MoreFillInMethods
 		int lo, hi, val1 = 999, val2 = 999;
 		lo = 1;
 		hi = 10;
-		superrand(lo, hi);
+		superrand();
 		System.out.println("First: " + val1 );
-		superrand(hi, lo);  // this time, put hi first
+		superrand();  // this time, put hi first
 		System.out.println("Second: " + val2 );
 		if ( val1 == val2 )
 			System.out.println("Hey!  They were the same!");
@@ -26,14 +26,14 @@ public class MoreFillInMethods
 		System.out.println();
 		System.out.print("More counting, but this time not by ones: ");
 		// count from 2 to 8 by 2s
-		stepcount(2, 8 ,2);
+		stepcount();
 		// count from 10 to 2 by 2s
-		stepcount(10, 2 ,2);
+		stepcount();
 
 		System.out.println();
 		System.out.println("Let's figure a project grade.");
 		int a=4,b=3,c=4,d=5,e=2,f=1, result=999;
-		project_grade(a, b, c, d, e, f);
+		project_grade();
 		System.out.println("434521 -> " + result );
 
 		System.out.println();
