@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class MethodPass 
+{
+	public static void main(String[] args)
+	{
+		Scanner k = new Scanner(System.in);
+		int dank = 0;
+		
+		divby3(k.nextInt());
+	}
+	
+	public static void divby3(int dank)
+	{
+		Scanner k = new Scanner(System.in);
+		dank = 0;
+		
+		System.out.println( "Pick a number: " );
+		dank = k.nextInt();
+		if ( dank % 3 == 0 )
+		{
+			System.out.println( "I like that number" );
+		}
+		else
+		{
+			System.out.println( "ew" );
+		}
+		
+	}
+	
+
+}
