@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class FindingPrimes 
+{
+	public static void main(String[] args) 
+	{
+		Scanner keyboard = new Scanner(System.in);
+		int x;
+		
+		System.out.print("Count to: ");
+		x = keyboard.nextInt();
+		
+		
+		System.out.println("Count From: ");
+		int countfrom = keyboard.nextInt();
+		
+		for ( int i = countfrom; i <= x;)
+		{
+			System.out.print( i + " ");
+			
+		}
+	}
+
+}
