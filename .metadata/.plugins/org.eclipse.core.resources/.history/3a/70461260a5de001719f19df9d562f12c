@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class Calculator 
+{
+	public static void main(String[] args) 
+	{	
+		Scanner k = new Scanner(System.in);
+		double x, y;
+		String op;
+		
+		System.out.println( "Type in the First Number: " );
+		x = k.nextDouble();
+		
+		System.out.println( "Type in the second Number: " );
+		y = k.nextDouble();
+		
+		System.out.println( "Type in the Operator: " );
+		op = k.nextInt();
+		
+		if ( op =  )
+		
+	}
+	
+
+	public static void plus(double x, double y)
+	{
+		Scanner k = new Scanner(System.in);
+		
+		System.out.println(x+y);
+		
+	}
+}
+

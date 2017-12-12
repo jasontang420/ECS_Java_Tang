@@ -10,7 +10,6 @@ public class AreaCalculatorDank
 		System.out.println( "Choose a shape: " );
 		System.out.println( "1. Tri   2. Cir" );
 		System.out.println( "3. Rec   4. Sqr" );
-		System.out.println( "5. Quit" );
 		ans = k.nextInt();
 		
 		if ( ans == 1 )
